@@ -1,0 +1,50 @@
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    margin: 50px 300px 0px 300px;
+    height: 400px;
+}
+.body-left{
+    flex: 1;
+    bottom: 0;
+    width: 450px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+.bottom-text{
+    position: absolute;
+    font-size: 18px;
+    bottom: 20px;
+    left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.signup-btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px;
+    padding: 0px 3px 2px 3px;
+}
+.login-form{
+    flex: 1;
+    width: 450px;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+}
+.form-control{
+    margin-left: 30px;
+    width: 250px;
+}
+.row.mb-3{
+    margin: 10px 10px 0px 10px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
